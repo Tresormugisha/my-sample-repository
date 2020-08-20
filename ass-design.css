@@ -1,0 +1,155 @@
+@media(min-width:468px)
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url("C:/Users/Tresor/Desktop/The Project/img/computers.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 90%;
+    margin: auto;
+}
+.navigation {
+    background-color: #202020;
+    color:white;
+    width: 100%;
+}
+.main-heading{
+}
+#navigation-list {
+    list-style: none;
+    text-align: right;
+}
+#navigation-list li{
+    display: inline;
+    padding-right:15px;
+    font-size: 18px;
+}
+#navigation-list li:first-child{
+    padding-right: 800px;
+    font-size: 35px;
+}
+#navigation-list a{
+    color: #5eb7e0;
+    text-decoration: none;
+}
+a:hover{
+    color:#edf05e;
+}
+a:active{
+    color:#09c386;
+}
+.hello {
+    color:#09c386;
+}
+.displayer {
+    color:white;
+    text-align: center;
+    margin: auto;
+    margin-top:200px;
+    line-height: 0.3;
+}
+.bigger {
+    font-size:25px;
+}
+.smaller{
+    font-size: 14px;
+}
+.form-display {
+    width: 25%;
+    text-align: center;
+    color: white;
+    margin: auto;
+    margin-top: 120px;
+    /**padding: 0px 50px;
+    margin-top: 120px;
+    margin-left: 520px;**/
+}
+.form-display input{
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    width: 100%;
+    border-style: groove white;
+}
+.form-display input[type="submit"]{
+    width: 55%;
+    margin: auto;
+    border-radius: 20px;
+    background-color: #09c386;
+    border-style:  #09c386;
+    color:white;
+    margin-top: 20px;
+}
+.contact-us{
+    
+    font-size: 25px;
+}
+.container{
+    display:flex;
+    background-color: rgb(194, 184, 184);
+    padding: 25px 40px;
+}
+.flex-display{
+    text-align: center;
+    box-shadow: 5px 5px 5px grey;
+    justify-content: space-around;
+    background-color: rgb(236, 231, 231);
+    margin:10px;
+    border-radius: 3px;
+
+}
+.flex-display img{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    height: 170px;
+    width: 200px;
+}
+.separator{
+    padding-top: 500px;
+}
+.last-container{
+    background-color: rgb(194, 184, 184);
+    padding: 30px;
+}
+.inner-container{
+    background-color: rgb(236, 231, 231);
+    display: flex;
+    padding: 30px;
+    box-shadow: 5px 5px 5px;
+    line-height: 1.6;
+    word-spacing: 1.6;
+}
+.image-container{
+    padding: 20px;
+}
+.image-container img{
+    width: 600px;
+    height: 400px;
+}
+.para-container input{
+    padding: 5px;
+    background-color: rgb(27, 26, 26);
+    color: white;
+    border: none;
+    font-size: 17px;
+}
+.message{
+    width:80%;
+    margin: auto;
+    background-color: black;
+    color:white;
+    text-align:center;
+}
+.click-me{
+    position: fixed;
+    top: 500px;
+    padding: 5px;
+    background-color: white;
+    color: rgb(27, 26, 26);
+    border: none;
+    font-size: 17px;
+    float:right;
+}
